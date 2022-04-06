@@ -29,7 +29,7 @@
             min-width: 50%;
             min-height: 60%;
             background: #ffffff;
-            -webkit-appearance: none;
+            -webkit-appearance: box-shadow;
             box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.20);
             opacity: 0.5;
             display: flex;
@@ -59,7 +59,7 @@
         }
 
         .box-shadow {
-            -webkit-appearance: none;
+            -webkit-appearance: box-shadow;
             box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.5);
         }
 
@@ -94,12 +94,15 @@
             <h2>login</h2>
             <label for="email">email</label>
             <input class="box-shadow" type="email" id="email" placeholder="Enter your email" required="required" name="email">
+            
             <label for="password">password</label>
+            
             <input class="box-shadow" type="password" id="password" placeholder="Enter your password" required="required" name="password">
             <input class="box-shadow" type="submit" id="submito" name="submit">
             
-            <label class="checkbox" for="checkbox"> remember me</label>
             <input class="checkbox" type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+            <label class="checkbox" for="checkbox"> remember me</label>
+            
         </div>
     </div>
 </body>
