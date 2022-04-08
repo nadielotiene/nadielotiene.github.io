@@ -35,6 +35,10 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+
+            border-style: groove;
+            border: 1px;
+            
         }
 
         h2 {
@@ -54,14 +58,13 @@
             opacity: 1;
             margin: 0.3rem;
             padding: 12px;
-            border-style: solid;
-            border: 1px;
             border-color: #BFC5FF;
         }
 
         .box-shadow {
             /* -webkit-appearance: box-shadow; */
             box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.5);
+            
         }
 
         input[type=submit] {
@@ -95,10 +98,10 @@
     <div class="container">
         <div class="card">
             <h2>login</h2>
-            <label for="email"><img class="envelope" src="https://cdn-icons.flaticon.com/png/512/2907/premium/2907765.png?token=exp=1649315815~hmac=2cbcff8d8e27665aed6b660bd316c429" width="16px" height="16px" alt="envelope-img"> email</label>
+            <label for="email"> email</label>
             <input class="box-shadow" type="email" id="email" placeholder="Enter your email" required="required" name="email">
 
-            <label for="password"><img class="key" src="https://cdn-icons.flaticon.com/png/512/807/premium/807369.png?token=exp=1649312555~hmac=b6848d65dd0aec381e5e99ddc9b3086d" width="16px" height="16px" alt="key-img"> password</label>
+            <label for="password"> password</label>
             <input class="box-shadow" type="password" id="password" placeholder="Enter your password" required="required" name="password">
 
             <input class="box-shadow" type="submit" id="submito" name="submit">
